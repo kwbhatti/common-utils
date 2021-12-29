@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.chimp-central</groupId>
 	<artifactId>common-utils</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>Common Utilities</name>
 	<description>Common Utilities for Data manupilation/Date Helper</description>
 	<url>https://chimp-central.com/</url>

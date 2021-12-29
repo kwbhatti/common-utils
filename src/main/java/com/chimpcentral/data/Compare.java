@@ -8,7 +8,7 @@ package com.chimpcentral.data;
  * @author kbhatti
  *
  */
-class Compare {
+public class Compare {
 	
 	private Object value1 = null;
 	private Object value2 = null;

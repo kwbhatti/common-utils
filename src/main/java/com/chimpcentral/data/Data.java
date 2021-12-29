@@ -19,6 +19,12 @@ public class Data {
 		return new Compare(this.value, this.compareValue);
 	}
 	
+	public boolean compare(Object value, boolean compareDataTypes) {
+		this.compareValue = value;
+		if (compareDataTypes) return compare(value).withDataType();
+		else return compare(value).withoutDataType();
+	}
+	
 	public ConvertInterface convert() {
 		if (value instanceof String) return new ConvertString((String) value);
 		else if (value instanceof Boolean) return new ConvertBoolean((boolean) value);
